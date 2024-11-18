@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-14T17:12:20 IST" name="Suite" finished-at="2024-11-14T17:12:28 IST" duration-ms="8480">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T17:12:20 IST" name="Test" finished-at="2024-11-14T17:12:28 IST" duration-ms="8480">
+      <class name="testscript.Logintest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.Logintest@595b007d]" started-at="2024-11-14T17:12:20 IST" name="beforeMethod" finished-at="2024-11-14T17:12:25 IST" duration-ms="4791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyuserisnotabletologinwithinvalidcredentials()[pri:0, instance:testscript.Logintest@595b007d]" started-at="2024-11-14T17:12:25 IST" name="verifyuserisnotabletologinwithinvalidcredentials" finished-at="2024-11-14T17:12:28 IST" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserisnotabletologinwithinvalidcredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.Logintest@595b007d]" started-at="2024-11-14T17:12:28 IST" name="afterMethod" finished-at="2024-11-14T17:12:28 IST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyuserisnotabletologinwithinvalidcredentials status=SUCCESS method=Logintest.verifyuserisnotabletologinwithinvalidcredentials()[pri:0, instance:testscript.Logintest@595b007d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

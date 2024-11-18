@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parallel testing" parallel="classes" thread-count="5">
+
+	<listeners>
+		<listener class-name="generatereport.Listeners" />
+	</listeners>
+	<test name="Chrometest">
+		<parameter name="browzer" value="chrome"></parameter>
+		<classes>
+
+			<class name="testscript.Logintest"></class>
+			<class name="testscript.Homepagetest"></class>
+		</classes>
+	</test>
+</suite>
